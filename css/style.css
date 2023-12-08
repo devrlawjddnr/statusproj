@@ -1,0 +1,20 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+/* html {
+    background-color: var(--bs-dark-bg-subtle);    
+} */
+
+body > div {
+    background-color: var(--bs-dark);
+}
+
+.title {
+    -webkit-user-drag: none;
+    color: cornflowerblue;
+}
+
+.nav-head {
+    background-color: var(--bs-gray-800);
+}
