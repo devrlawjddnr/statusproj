@@ -1,20 +1,50 @@
-/* * {
-    margin: 0;
-    padding: 0;
-} */
+* {
+	margin: 0;
+	padding: 0;
+}
 /* html {
     background-color: var(--bs-dark-bg-subtle);    
 } */
 
 body > div {
-    background-color: var(--bs-dark);
+	background-color: var(--bs-dark);
 }
 
 .title {
-    -webkit-user-drag: none;
-    color: cornflowerblue;
+	-webkit-user-drag: none;
+	color: cornflowerblue !important;
+	/* padding: ; */
 }
 
+/* .nav {
+	background-color: var(--bs-gray-800);
+} */
 .nav-head {
-    background-color: var(--bs-gray-800);
+	background-color: var(--bs-gray-800);
+}
+.navbar-toggler:focus {
+	box-shadow: 0 0 0 !important;
+}
+
+.blockquote-footer {
+	margin-top: 0 !important;
+}
+.navbar {
+	background-color: var(--bs-gray-800);
+}
+.footer {
+	background-color: var(--bs-gray-800);
+	height: 200px;
+}
+
+.maincontents {
+	height: 100%;
+}
+.content-title:hover {
+	text-decoration-line: underline;
+}
+.img {
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	user-select: none;
 }
